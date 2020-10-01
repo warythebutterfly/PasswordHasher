@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yEPza+XH9oXj6KFipzhZndhElh/DJEW/GV3qyB1s2yabErXfS5jC/wi+n1L+oExST2T4bzxbmV/NTxwk5QB6Ng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\temit\\source\\repos\\PasswordHasherUsingPBKDF2\\PasswordHasherUsingPBKDF2\\PasswordHasherUsingPBKDF2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\temit\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
+    "C:\\Users\\temit\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
