@@ -9,9 +9,10 @@ namespace PasswordHasherUsingPBKDF2
     {
         public static string Create()
         {
+            var rng = new RNGCryptoServiceProvider();
             byte[] randomBytes = new byte[128 / 8];
             RandomNumberGenerator generator = RandomNumberGenerator.Create();
-            generator.GetBytes(randomBytes);
+            rng.GetBytes(randomBytes);
             return Convert.ToBase64String(randomBytes);
         }
     }

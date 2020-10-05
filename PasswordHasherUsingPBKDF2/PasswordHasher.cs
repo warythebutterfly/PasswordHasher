@@ -30,6 +30,9 @@ namespace PasswordHasherUsingPBKDF2
 
         }
         public static bool Validate(string value, string salt, string hash)
-        => Create(value, salt) == hash;
+        {
+            return Create(value, salt) == hash;
+        }
+        
     }
 }
